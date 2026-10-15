@@ -289,9 +289,9 @@ lvgl:
         - canvas:
             id: art_canvas_${uid}
             x: 22
-            y: 32
-            width: 84
-            height: 84
+            y: 28
+            width: 90
+            height: 90
 
         # LEFT: 64×64 text column
         - obj:
