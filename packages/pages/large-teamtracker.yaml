@@ -353,7 +353,7 @@ lvgl:
               - label:
                   id: game_status_lbl_${uid}
                   x: 0
-                  y: 118
+                  y: 110
                   width: 128
                   text_align: CENTER
                   long_mode: SCROLL_CIRCULAR
