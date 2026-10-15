@@ -288,19 +288,19 @@ lvgl:
         # On 64x64, this is full screen.  On wider displays it is put as the right panel
         - canvas:
             id: art_canvas_${uid}
-            x: ${DISPLAY_W == 128 and '0' or '128'}
+            x: 0
             y: 0
-            width: 100%
-            height: 100%
+            width: 128
+            height: 128
 
         # LEFT: 64×64 text column
         - obj:
             id: left_panel_${uid}
             x: 0
             y: 0
-            width: 100%
-            height: 100%
-            hidden: ${DISPLAY_W == 128}
+            width: 128
+            height: 128
+            hidden: 1
             layout:
               type: flex
               flex_flow: COLUMN
