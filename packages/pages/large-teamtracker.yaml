@@ -319,7 +319,7 @@ lvgl:
                   width: 64
                   text_align: CENTER
                   text: "AWAY"
-                  styles: ["st_team_text_${uid}"]
+                  styles: [st_spleen16, "st_team_text_${uid}"]
 
               - label:
                   id: away_score_lbl_${uid}
@@ -328,7 +328,7 @@ lvgl:
                   width: 64
                   text_align: CENTER
                   text: "0"
-                  styles: ["st_score_text_${uid}"]
+                  styles: [st_spleen16, "st_score_text_${uid}"]
 
               # Home team name and score (right side)
               - label:
@@ -338,7 +338,7 @@ lvgl:
                   width: 64
                   text_align: CENTER
                   text: "HOME"
-                  styles: ["st_team_text_${uid}"]
+                  styles: [st_spleen16, "st_team_text_${uid}"]
 
               - label:
                   id: home_score_lbl_${uid}
@@ -347,7 +347,7 @@ lvgl:
                   width: 64
                   text_align: CENTER
                   text: "0"
-                  styles: ["st_score_text_${uid}"]
+                  styles: [st_spleen16, "st_score_text_${uid}"]
 
               # Game status (bottom)
               - label:
@@ -358,7 +358,7 @@ lvgl:
                   text_align: CENTER
                   long_mode: SCROLL_CIRCULAR
                   text: "Game Status"
-                  styles: ["st_status_text_${uid}"]
+                  styles: [st_spleen16, "st_status_text_${uid}"]
 
         # Container for "no game" display
         - obj:
