@@ -244,10 +244,10 @@ lvgl:
       radius: 0
       pad_left: 2
       pad_right: 2
-      pad_top: 2
-      pad_bottom: 2
+      pad_top: 0
+      pad_bottom: 0
       pad_column: 0
-      pad_row: 2
+      pad_row: 1
 
     # Progress bar styles (track + indicator)
     # Text hierarchy via opacity (monochrome)
@@ -304,7 +304,7 @@ lvgl:
             layout:
               type: flex
               flex_flow: COLUMN
-              pad_row: 2
+              pad_row: 1
               pad_column: 0
             styles: [panel_left_box]
             widgets:
