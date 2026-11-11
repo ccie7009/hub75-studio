@@ -41,4 +41,5 @@ lvgl:
             height: 100%
             text_align: CENTER
             long_mode: WRAP
+            text_font: montserrat_10
             text: "Loading joke..."
