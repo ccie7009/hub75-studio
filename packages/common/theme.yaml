@@ -16,11 +16,6 @@ font:
     id: spleen_16
     size: 16
 
-  - file:
-    "../../fonts/Helvetica.ttf"
-    id: joke_text
-    size: 12
-
 lvgl:
   style_definitions:
     - id: style_bg_black
